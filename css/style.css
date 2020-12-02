@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	color: #f8f8f8;
+}
+
+h2 {
+	text-align: center;
+}
+
+.nav{
+	background: #31112c;
+	overflow: hidden;
+}
+.nav ul{
+	width: 70%;
+	margin: 0 auto;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+}
+.nav a{
+	text-decoration: none;
+	display: inline-block;
+	height: 50px;
+	width:100px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	margin-left: 30px;
+	transition: all ease .3s;
+}
+.nav a:hover{
+	background: #7d0633;
+	transform: scale(1.3);
+}
+
+.gradient div {
+	height: 100px;
+	width: 100%;
+}
+
+
+.linear_gradient {
+	background: linear-gradient(to bottom right, #0a043c, #03506f);
+
+}
+
+.radial_gradient {
+	background: radial-gradient(#c4b6b6, #39311d, #7e7474);
+}
+
+.repeat_linear_gradient {
+	background: repeating-linear-gradient(#321f28, #734046 10%, #790c5a 20%);
+}
+
+.float div{
+	height: 100px;
+}
+.float_left{
+	width: 50%;
+	float: left;
+	background: #132743;
+}
+.float_right{
+	width: 50%;
+	float: right;
+	background: #d7385e;
+}
+.clear_both{
+	clear: both;
+	background: #213e3b;
+}
+.transition{
+	overflow: hidden;
+	background: #0d7377;
+}
+.flag{
+	position: relative;
+	height: 300px;
+	width: 50%;
+	float: left;
+}
+.rectangle{
+	width: 400px;
+	height: 250px;
+	background: green;
+	position: absolute;
+	box-shadow: 5px 5px 10px black;
+	
+}
+
+.circle{
+	width: 120px;
+	height: 120px;
+	background: red;
+	position: absolute;
+	left: 130px;
+	top: 65px;
+	box-shadow: 5px 5px 10px black;
+	transition: all ease 1s;
+}
+.circle:hover{
+	border-radius: 50%;
+}
+.test_transition{
+	float: left;
+	width: 300px;
+	height: 200px;
+	background-color:#463333;
+	transition: all ease 2s;
+}
+.test_transition:hover{
+	width: 600px;
+	height: 250px;
+	background-color:#290001 ;
+}
+
+
+
+
+
